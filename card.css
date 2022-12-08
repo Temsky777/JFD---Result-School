@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;1,300&family=Roboto&family=Russo+One&display=swap');
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    color: #0f141e;
+    line-height: 25px;
+}
+h1 {
+    font-family: 'Russo one',sans-serif;
+    font-style: bold;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 27px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+p {
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+    padding-left: 30px;
+}
+.goals {
+    background: rgb(195, 247, 208);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: url('aim.svg');   
+}
+.goals ol li {
+        padding: 5px;
+}
+.learning {
+    background: rgb(247, 215, 200);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px; 
+}
+
+.learning table {
+    padding-bottom: 20px;
+}
+.learning table td.hours {
+    width: 500px;
+    text-align: left;
+    padding-left: 100px;
+}
+.learning table td.days {
+    width: 500px;
+    text-align: right;
+    padding-right: 100px;
+}
+
+.learning table td:hover {
+    font-weight: 900;
+    opacity: 0.7;
+}
+.exp {
+    background: rgb(239, 205, 243);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.exp table {
+    padding-bottom: 15px;
+}
+.exp table th {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: #0f141e solid 1px;
+}
+.exp table td{
+    text-align: center;
+    width: 500px;
+    padding: 5px;
+}
+.container {
+    max-width: 1080px;
+    margin: auto;
+    }
+.avatar {
+    border-radius: 10px;
+}
+.avatar:hover {
+    width: 305px;
+    transition: all.2s;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.box {
+    max-width: 70%;
+    display: inline-block;
+    vertical-align:top; 
+}
+.contacts {
+    background: #E2F490;
+    border-radius: 10px;
+    padding: 10px;
+}
+.contacts table {
+    margin: auto;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.contacts table th:nth-child(1){
+    width: 110px;
+    padding-right: 50px;
+}
+.contacts table th:nth-child(2){
+    width: 110px;
+    padding-right: 50px;
+}
+.btn:hover {
+    opacity: .8;
+}
+
+
+
